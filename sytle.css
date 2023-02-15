@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    gap: 2rem;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #0c122c;
+    background-image: url("images//bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    background-size: contain;       
+}
+
+#container {
+    position: fixed;
+    width: 350px;
+    height: 200px;
+    background-color: #1d2c67;
+    margin-top: -2.4rem;
+    margin-left: 25rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  
+#container img {
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+}
+
+#icons img {
+    background-color: #0c122c;
+    border-radius: 20%; 
+    padding: 12px; 
+    margin-left: 1.8rem;     
+}
+
+#measuring {
+    background-color: #1d2c67;
+    width: 600px;
+    height: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: azure;
+    margin-left: 50rem;
+    margin-top: 22rem;
+}
+
+#measuring p {
+    font-size: 14px;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+#Gb span {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-left: 3.2rem;
+}
+
+
+#line {
+    width: 500px;
+    height: 20px;
+    background-color: #0c122c;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+}
+   
+img {
+   margin-top: -2rem;
+   margin-left: 23rem;
+}
+
+#linered {
+    width: 340px;
+    height: 12px;
+    background-color: rgb(219, 93, 93);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 3.2em;
+    margin-top: -1rem;
+}
+
+#linewhite {
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 23.7rem;
+    margin-top: -0.7rem;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-image: url("images/bg-mobile.png");
+      background-size: cover;
+    }
+}
+    
+  
